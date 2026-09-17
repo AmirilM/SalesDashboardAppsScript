@@ -1,0 +1,15 @@
+{
+  "name": "sales-dashboard-apps-script",
+  "private": true,
+  "scripts": {
+    "test:backend": "node backend/tests/run-tests.js",
+    "clasp:login": "clasp login",
+    "clasp:status": "clasp status",
+    "clasp:pull": "clasp pull",
+    "clasp:push": "clasp push",
+    "clasp:open": "clasp open"
+  },
+  "devDependencies": {
+    "@google/clasp": "latest"
+  }
+}
